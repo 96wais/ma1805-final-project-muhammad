@@ -1,3 +1,12 @@
+LINKS:
+
+Access to website/game - https://96wais.github.io/ma1805-final-project-muhammad/
+
+
+
+
+
+
 Burnout ride - Game Information 
 A p5.js arcade-style runner about stress, burnout, and trying to keep going when everything gets overwhelming.
 
