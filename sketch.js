@@ -61,6 +61,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   groundY = height - 50;
+  skyColor = color(180, 220, 255);
 
   player = {
     x: width * 0.2,
@@ -69,8 +70,6 @@ function setup() {
     vy: 0,
     isJumping: false
   };
-
-  skyColor = color(180, 220, 255);
 }
 
   
