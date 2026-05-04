@@ -73,10 +73,7 @@ function setup() {
   skyColor = color(180, 220, 255);
 }
 
-  groundY = height - 60;
-
-  skyColor = color(180, 220, 255); //light blue sky or pale blue sky colour
-
+  
 
 //draw loop 
 function draw() {
@@ -586,13 +583,6 @@ function extraGameLayer() {
   drawAlarmOverlay();
 }
 
-// quick hack: run old game then extras
-const _oldRunGame = runGame;
-runGame = function() {
-  _oldRunGame();
-  extraGameLayer();
-};
-
 
 // -------- simple helpers i can tweak quickly --------
 function easyModeOn() {
@@ -621,7 +611,28 @@ function drawDebugMini() {
   text('parts ' + particles.length, width - 138, height - 36);
 }
 
-// hook debug into extra layer too
+//github keeps crashing?!?!?!
+function runGame() {
+
+  updateStress();
+  updateWorld();
+  updateJump(); 
+  updateParticles();
+
+  drawWorld();
+  drawGround();
+
+  handleObstacles();
+  drawPlayer();
+
+  applyScreenShake();
+  drawVigette();
+
+  drawUI();
+
+  extraGameLayer();
+}
+
 const __oldExtraGameLayer = extraGameLayer;
 extraGameLayer = function() {
   __oldExtraGameLayer();
