@@ -1,10 +1,7 @@
 LINKS:
 
 Access to website/game - https://96wais.github.io/ma1805-final-project-muhammad/
-
-
-
-
+Access to github  (codes and ect)  - https://github.com/96wais/ma1805-final-project-muhammad
 
 
 Burnout ride - Game Information 
@@ -114,3 +111,11 @@ I also learned how important debugging structure is in p5.js projects.
 - p5.js
 - JavaScript
 - Creative coding experimentation
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+One last thing - read at the end 
+
+
+this game is annoying right?
+just as expected
