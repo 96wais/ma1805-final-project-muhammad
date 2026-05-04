@@ -60,10 +60,8 @@ function windowResized() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  // set ground 
   groundY = height - 50;
 
-  //create the player object 
   player = {
     x: width * 0.2,
     y: groundY,
