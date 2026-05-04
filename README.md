@@ -62,10 +62,10 @@ I explored how games can communicate feeling without dialogue by using:
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 🧠 Criticality / Reflection
+##  Criticality / Reflection
 
 ### What worked well:
-- The stress system successfully creates a sense of escalation
+- The stress system successfully creates a sense of escalation, i felt it so hopefully others aswell
 - Visual feedback (shake, colour shift, glitch effects) really affects the gameplay and how the player is feeling 
 - Jump mechanic significantly improved playability and skill expression, this was added at the end of the game and gave a huge difference
 
@@ -76,7 +76,7 @@ I explored how games can communicate feeling without dialogue by using:
 
 ### Improvements made:
 - Added jumping to introduce skill-based gameplay and tenstion
-- Balanced obstacle spawning to improve fairness
+- Balanced obstacle spawning to improve fairness, players had time to know what to do
 - Linked more systems to gameplay outcomes rather than visuals alone
 
 ### What I learned:
@@ -90,9 +90,8 @@ I also learned how important debugging structure is in p5.js projects.
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## 🚀 Future Improvements
+##  Future Improvements
 
-- Sound design tied to stress levels (heartbeat / notification overload)
 - Mobile-friendly controls
 - Difficulty modes (chill / normal / panic)
 - More meaningful upgrades (coffee boosts, rest mechanics)
